@@ -1,0 +1,171 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-',
+1 verbose cli   'express-generator' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.36
+4 verbose cache add [ '-', null ]
+5 verbose cache add name=undefined spec="-" args=["-",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: '-',
+6 verbose parsed url   path: '-',
+6 verbose parsed url   href: '-' }
+7 verbose cache add [ 'express-generator', null ]
+8 verbose cache add name=undefined spec="express-generator" args=["express-generator",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'express-generator',
+9 verbose parsed url   path: 'express-generator',
+9 verbose parsed url   href: 'express-generator' }
+10 silly lockFile 3bc15c8a- -
+11 verbose lock - /Users/fbonnamy/.npm/3bc15c8a-.lock
+12 silly lockFile 198a68d8-express-generator express-generator
+13 verbose lock express-generator /Users/fbonnamy/.npm/198a68d8-express-generator.lock
+14 silly lockFile 198a68d8-express-generator express-generator
+15 silly lockFile 198a68d8-express-generator express-generator
+16 silly lockFile 3bc15c8a- -
+17 silly lockFile 3bc15c8a- -
+18 verbose addNamed [ 'express-generator', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile bd41e3d3-express-generator express-generator@
+21 verbose lock express-generator@ /Users/fbonnamy/.npm/bd41e3d3-express-generator.lock
+22 verbose addNamed [ '-', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile c75fe0d4- -@
+25 verbose lock -@ /Users/fbonnamy/.npm/c75fe0d4-.lock
+26 silly addNameRange { name: 'express-generator', range: '*', hasData: false }
+27 silly addNameRange { name: '-', range: '*', hasData: false }
+28 verbose request where is /express-generator
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 21f0b54e09c7b647
+31 verbose url raw /express-generator
+32 verbose url resolving [ 'https://registry.npmjs.org/', './express-generator' ]
+33 verbose url resolved https://registry.npmjs.org/express-generator
+34 verbose request where is https://registry.npmjs.org/express-generator
+35 info trying registry request attempt 1 at 17:13:20
+36 http GET https://registry.npmjs.org/express-generator
+37 verbose request where is /-
+38 verbose request registry https://registry.npmjs.org/
+39 verbose url raw /-
+40 verbose url resolving [ 'https://registry.npmjs.org/', './-' ]
+41 verbose url resolved https://registry.npmjs.org/-
+42 verbose request where is https://registry.npmjs.org/-
+43 info trying registry request attempt 1 at 17:13:20
+44 http GET https://registry.npmjs.org/-
+45 http 200 https://registry.npmjs.org/express-generator
+46 silly registry.get cb [ 200,
+46 silly registry.get   { date: 'Tue, 10 Feb 2015 16:13:25 GMT',
+46 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+46 silly registry.get     etag: '"9LEDNBUQFES5NAC1VKJ7XDLQ3"',
+46 silly registry.get     'content-type': 'application/json',
+46 silly registry.get     'cache-control': 'max-age=60',
+46 silly registry.get     'content-length': '21724',
+46 silly registry.get     'accept-ranges': 'bytes',
+46 silly registry.get     via: '1.1 varnish',
+46 silly registry.get     age: '0',
+46 silly registry.get     'x-served-by': 'cache-lcy1125-LCY',
+46 silly registry.get     'x-cache': 'HIT',
+46 silly registry.get     'x-cache-hits': '1',
+46 silly registry.get     'x-timer': 'S1423584805.509594,VS0,VE151',
+46 silly registry.get     vary: 'Accept',
+46 silly registry.get     'keep-alive': 'timeout=10, max=50',
+46 silly registry.get     connection: 'Keep-Alive' } ]
+47 silly addNameRange number 2 { name: 'express-generator', range: '*', hasData: true }
+48 silly addNameRange versions [ 'express-generator',
+48 silly addNameRange   [ '1.0.0',
+48 silly addNameRange     '3.0.0',
+48 silly addNameRange     '4.0.0',
+48 silly addNameRange     '4.2.0',
+48 silly addNameRange     '4.8.0',
+48 silly addNameRange     '4.9.0',
+48 silly addNameRange     '4.10.0',
+48 silly addNameRange     '4.11.0',
+48 silly addNameRange     '4.11.1',
+48 silly addNameRange     '4.11.2' ] ]
+49 verbose addNamed [ 'express-generator', '4.11.2' ]
+50 verbose addNamed [ '4.11.2', '4.11.2' ]
+51 silly lockFile 7d8371f1-express-generator-4-11-2 express-generator@4.11.2
+52 verbose lock express-generator@4.11.2 /Users/fbonnamy/.npm/7d8371f1-express-generator-4-11-2.lock
+53 silly lockFile 67ebb57a-tor-express-generator-4-11-2-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+54 verbose lock https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz /Users/fbonnamy/.npm/67ebb57a-tor-express-generator-4-11-2-tgz.lock
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz',
+55 verbose addRemoteTarball   'f8c78730ca07c191129f50471b401786c26ebbc5' ]
+56 info retry fetch attempt 1 at 17:13:25
+57 verbose fetch to= /tmp/npm-4075-jvAhFgNw/registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+58 http GET https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+59 http 200 https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+60 silly lockFile 67ebb57a-tor-express-generator-4-11-2-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+61 silly lockFile 67ebb57a-tor-express-generator-4-11-2-tgz https://registry.npmjs.org/express-generator/-/express-generator-4.11.2.tgz
+62 silly lockFile 7d8371f1-express-generator-4-11-2 express-generator@4.11.2
+63 silly lockFile 7d8371f1-express-generator-4-11-2 express-generator@4.11.2
+64 silly lockFile bd41e3d3-express-generator express-generator@
+65 silly lockFile bd41e3d3-express-generator express-generator@
+66 http 404 https://registry.npmjs.org/-
+67 verbose headers { date: 'Tue, 10 Feb 2015 16:13:25 GMT',
+67 verbose headers   server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+67 verbose headers   'content-type': 'application/json',
+67 verbose headers   'cache-control': 'max-age=0',
+67 verbose headers   'content-length': '52',
+67 verbose headers   'accept-ranges': 'bytes',
+67 verbose headers   via: '1.1 varnish',
+67 verbose headers   age: '0',
+67 verbose headers   'x-served-by': 'cache-lcy1132-LCY',
+67 verbose headers   'x-cache': 'MISS',
+67 verbose headers   'x-cache-hits': '0',
+67 verbose headers   'x-timer': 'S1423584805.511840,VS0,VE381',
+67 verbose headers   'keep-alive': 'timeout=10, max=50',
+67 verbose headers   connection: 'Keep-Alive' }
+68 silly registry.get cb [ 404,
+68 silly registry.get   { date: 'Tue, 10 Feb 2015 16:13:25 GMT',
+68 silly registry.get     server: 'CouchDB/1.6.1 (Erlang OTP/R14B04)',
+68 silly registry.get     'content-type': 'application/json',
+68 silly registry.get     'cache-control': 'max-age=0',
+68 silly registry.get     'content-length': '52',
+68 silly registry.get     'accept-ranges': 'bytes',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     age: '0',
+68 silly registry.get     'x-served-by': 'cache-lcy1132-LCY',
+68 silly registry.get     'x-cache': 'MISS',
+68 silly registry.get     'x-cache-hits': '0',
+68 silly registry.get     'x-timer': 'S1423584805.511840,VS0,VE381',
+68 silly registry.get     'keep-alive': 'timeout=10, max=50',
+68 silly registry.get     connection: 'Keep-Alive' } ]
+69 silly lockFile c75fe0d4- -@
+70 silly lockFile c75fe0d4- -@
+71 error Error: not_found document not found: -
+71 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+71 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+71 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+71 error     at Request.emit (events.js:98:17)
+71 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+71 error     at Request.emit (events.js:117:20)
+71 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+71 error     at IncomingMessage.emit (events.js:117:20)
+71 error     at _stream_readable.js:944:16
+71 error     at process._tickCallback (node.js:442:13)
+72 error If you need help, you may report this *entire* log,
+72 error including the npm and node versions, at:
+72 error     <http://github.com/npm/npm/issues>
+73 error System Darwin 13.4.0
+74 error command "node" "/usr/local/bin/npm" "install" "-" "express-generator"
+75 error cwd /Applications/MAMP/htdocs/Github/node-p5
+76 error node -v v0.10.36
+77 error npm -v 1.4.28
+78 verbose exit [ 1, true ]
