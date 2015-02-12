@@ -1,9 +1,17 @@
 var express = require('express');
 var router = express.Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+var mongoose = require('mongoose');
+
+mongoose.model('art', {name : String});
+
+router.get('/', function(req, res){
+	mongoose.model('art').find(function(err, artPieces){
+		 res.send(artPieces);
+	});
 });
 
+
+
+// return value of the whole file 
 module.exports = router;
